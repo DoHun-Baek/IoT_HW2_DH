@@ -3,7 +3,7 @@
 
 객체 메서드 호출과 함수 호출의 차이 및 call 메서드 사용  
 
-'''
+
 var obj1 = {
   name: 'obj1',
   func: function() {
@@ -22,4 +22,3 @@ var obj3 = { name: 'obj3' };
 var callback3 = obj1.func.call(obj3);  
 // call 메서드로 obj3를 this로 지정해 함수 즉시 실행, 반환값 undefined
 setTimeout(callback3, 2000);  // callback3은 undefined라 동작 안 함
-'''
